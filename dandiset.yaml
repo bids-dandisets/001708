@@ -3,6 +3,9 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about:
+- name: Rostral Ventromedial Medulla
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -17,9 +20,9 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 67964224
-  numberOfFiles: 72
-  numberOfSubjects: 63
+  numberOfBytes: 104228048
+  numberOfFiles: 101
+  numberOfSubjects: 83
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -27,32 +30,103 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: Ashworth, Carl (2026) Noxious stimulation and baseline recordings of ON,
-  OFF and Neutral cells in the rat rostral ventromedial medulla (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001708/draft
+citation: Ashworth, Carl; Mancini, Flavia; Heinricher, Mary; Shi, Zhigang; Martenson,
+  Melissa (2026) Noxious stimulation and baseline recordings of ON, OFF and Neutral
+  cells in the rat rostral ventromedial medulla (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001708/draft
 contributor:
-- affiliation: []
-  email: carlashworth31@gmail.com
+- affiliation:
+  - identifier: https://ror.org/013meh722
+    name: University of Cambridge
+    schemaKey: Affiliation
+  email: ca541@cam.ac.uk
+  identifier: 0009-0003-3532-0274
   includeInCitation: true
   name: Ashworth, Carl
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/013meh722
+    name: University of Cambridge
+    schemaKey: Affiliation
+  email: fm456@cam.ac.uk
+  identifier: 0000-0001-8441-9236
+  includeInCitation: true
+  name: Mancini, Flavia
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/009avj582
+    name: Oregon Health and Science University
+    schemaKey: Affiliation
+  email: heinricm@oshu.edu
+  includeInCitation: true
+  name: Heinricher, Mary
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/009avj582
+    name: Oregon Health and Science University
+    schemaKey: Affiliation
+  email: shiz@oshu.edu
+  identifier: 0000-0002-5828-1904
+  includeInCitation: true
+  name: Shi, Zhigang
+  roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/009avj582
+    name: Oregon Health and Science University
+    schemaKey: Affiliation
+  email: depreterc@outlook.com
+  identifier: 0000-0002-6499-5372
+  name: De Preter, Caitlynn C
+  roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/009avj582
+    name: Oregon Health and Science University
+    schemaKey: Affiliation
+  email: melissa.martenson@yahoo.com
+  includeInCitation: true
+  name: Martenson, Melissa
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2026-01-30T13:28:33.991160+00:00'
 description: Dataset consisting of single-electrode recordings in lightly anesthetized
   Sprague-Dawley rats, during both unstimulated periods of activity lasting roughly
   25 minutes, and multiple episodes of noxious hind paw stimulation with heat ramp
   and noxious pinch. For the accompanying preprint see https://doi.org/10.64898/2025.12.15.693905.
+ethicsApproval: []
 id: DANDI:001708/draft
 identifier: DANDI:001708
+keywords:
+- Nociception
+- Descending Pain Modulation
+- Rostral Ventromedial Medulla
+- Pain
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001708/versions/draft/assets/
 name: Noxious stimulation and baseline recordings of ON, OFF and Neutral cells in
   the rat rostral ventromedial medulla
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- Computational modelling of ON- and OFF-cells in the rostral ventromedial medulla
+  during noxious stimulation and ongoing activity
 url: https://dandiarchive.org/dandiset/001708/draft
 version: draft
+wasGeneratedBy: []
