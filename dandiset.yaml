@@ -140,7 +140,8 @@ description: Dataset consisting of single-electrode recordings in lightly anesth
   Sprague-Dawley rats, during both unstimulated periods of activity lasting roughly
   25 minutes, and multiple episodes of noxious hind paw stimulation with heat ramp
   and noxious pinch. For the accompanying preprint see https://doi.org/10.64898/2025.12.15.693905.
-ethicsApproval: []
+ethicsApproval:
+- {}
 id: DANDI:001708/draft
 identifier: DANDI:001708
 keywords:
@@ -152,7 +153,12 @@ keywords:
 - Multi-Timescale Dynamics
 - noxious stimulation
 - brainstem
-- ON- and OFF-cells
+- ON-cells
+- OFF-cells
+- Medulla
+- rat
+- Defensive Behaviour
+- reflex
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
